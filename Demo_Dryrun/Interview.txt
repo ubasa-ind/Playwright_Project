@@ -1,0 +1,4 @@
+*** For multiple user testing we use browsercontext and use different pages \
+*** In the drowpdown file, there is the method to find how to print all the values from the drowdown
+*** Which attribute in the file upload is responsible for the multiple selection of file ---- Mutliple 
+attribute is there then only we can upload multiple files. 
