@@ -9,7 +9,7 @@ import { AddtoCartPage } from '../SauceDemo/src/pages/addtocart.spec';
 
 test.describe('Shopping Workflow', () => {
   test('user can search for a product and add to cart', async () => {
-    const browser: Browser = await chromium.launch({ headless: false, channel: 'chrome' });
+    const browser: Browser = await chromium.launch({ headless: true, channel: 'chrome' });
     const page: Page = await browser.newPage();
     
     // Navigate to SauceDemo and log in
